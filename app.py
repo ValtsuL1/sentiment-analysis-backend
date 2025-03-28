@@ -16,7 +16,7 @@ def hello_world():
     return "<p>Hello world!!!</p>"
 
 # Post request that gets text from request,
-# analyzes it and returns the result
+# analyzes it and returns the result.
 @app.route('/sentiment', methods = ['POST'])
 @cross_origin()
 def get_sentiment():
